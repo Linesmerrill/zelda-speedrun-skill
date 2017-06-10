@@ -1,21 +1,3 @@
-# Fun Facts About Arizona
+# Zelda speedrun times
 
-Do you think you know all about Arizona? Try this fun knowledge test about Arizona state.
-
-Try asking Alexa one of these:
-
-Hey Alexa, 
-
-* "a random fact",
-* "tell me a fact",
-* "tell me a fact about arizona",
-* "give me a fact",
-* "give me a fact about arizona",
-* "tell me trivia",
-* "tell me trivia about arizona",
-* "give me trivia",
-* "give me trivia about arizona",
-* "give me some information",
-* "give me some information about arizona",
-* "tell me something",
-* "give me something"
+The fastest speedrun time of Zelda Breath of the Wild. This speedrun times the player from the beginning of the game to defeating Ganon. All information is pulled from the API hosted by http://www.speedrun.com/api/v1/games/76rqjqd8/records?top=1&miscellaneous=false.
