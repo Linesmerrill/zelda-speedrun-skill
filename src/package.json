@@ -1,7 +1,7 @@
 {
-  "name": "arizona-facts-skill",
+  "name": "zelda-speedrun",
   "version": "1.0.0",
-  "description": "fun facts about Arizona.",
+  "description": "Fastest speedrun times of Zelda: Breath of the Wild",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,12 +9,16 @@
   "keywords": [
     "alexa",
     "skill",
-    "arizona",
-    "facts"
+    "zelda",
+    "breath of the wild",
+    "speedrun"
   ],
-  "author": "Amazon.com",
+  "author": "Merrill Lines",
   "license": "Apache-2.0",
   "dependencies": {
-    "alexa-sdk": "^1.0.6"
+    "alexa-sdk": "^1.0.6",
+    "browser-request": "^0.3.3",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
   }
 }
