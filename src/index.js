@@ -4,7 +4,7 @@ var http = require('http');
 
 var APP_ID = "arn:aws:lambda:us-east-1:400139375123:function:GetNewSpeedrunIntent";
 
-var SKILL_NAME = "Zelda Speedrun";
+var SKILL_NAME = "zelda speedrun";
 var GET_SPEEDRUN_MESSAGE = "Here's the current fastest time: ";
 var HELP_MESSAGE = "You can say tell me the fastest time, or, you can say exit... What can I help you with?";
 var HELP_REPROMPT = "How can I help you?";
@@ -56,10 +56,11 @@ http.request(options, callback).end();
     /* Async problems so for now setting data to a static value */
     data = 2397
 
+    /* Converts seconds to formatted string */
     var minutes = Math.floor(data / 60);
     var seconds = data - minutes * 60;
-
     data = minutes.toString() + " minutes and " + seconds.toString() + " seconds"
+
   alexa.APP_ID = APP_ID;
   alexa.registerHandlers(handlers);
   alexa.execute();
