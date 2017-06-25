@@ -17,10 +17,8 @@ var options = {
   path: '/api/v1/games/76rqjqd8/records?top=' + encodeURIComponent("1") + '&miscellaneous=' + encodeURIComponent("false")
 }
 
-
 exports.handler = function(event, context, callback) {
   var alexa = Alexa.handler(event, context);
-
 
   callback = function(response) {
   var str = '';
